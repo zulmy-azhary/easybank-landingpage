@@ -1,9 +1,21 @@
-.articlesContainer {
+.container {
   background-color: var(--VeryLightGray);
 }
 
-.cardList {
+.list {
   margin-top: 3rem;
   display: flex;
   column-gap: 1.7rem;
+}
+
+@media (max-width: 375px) {
+  .title {
+    text-align: center;
+  }
+
+  .list {
+    margin-top: 2rem;
+    flex-direction: column;
+    row-gap: 1.7rem;
+  }  
 }

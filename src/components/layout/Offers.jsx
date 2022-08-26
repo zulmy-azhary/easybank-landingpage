@@ -15,7 +15,7 @@ const Offers = () => {
 					Control your finances like never before.
 				</p>
 			</div>
-			<div id="offersList" className={styles.offersList}>
+			<div className={styles.offersList}>
 				<OffersItem
 					className={styles.offersItem}
 					icon={<OnlineBanking className={styles.offersIcon} />}
@@ -29,7 +29,7 @@ const Offers = () => {
 					icon={<SimpleBudgeting className={styles.offersIcon} />}
 					title={"Simple Budgeting"}
 					description={
-						"See exactly where your money goes each month. receive notifications when you're close to hitting your limits."
+						"See exactly where your money goes each month. receive notifications when you're close to your hitting limits."
 					}
 				/>
 				<OffersItem

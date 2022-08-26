@@ -1,6 +1,5 @@
-import { Button } from '../utils'
+import { Button, BrandLogo } from '../utils'
 import styles from "../../styles/Footer.module.css";
-import { ReactComponent as Logo } from "../../assets/logo.svg";
 import { ReactComponent as Facebook } from "../../assets/icon-facebook.svg";
 import { ReactComponent as Youtube } from "../../assets/icon-youtube.svg";
 import { ReactComponent as Twitter } from "../../assets/icon-twitter.svg";
@@ -13,7 +12,7 @@ const Footer = () => {
     <footer className={styles.container}>
       <div className={styles.content}>
         <div className={styles.contact}>
-          <Logo />
+          <BrandLogo fillPath="#fff" className={styles.logo} />
           <div className={styles.socialMedia}>
             <Facebook />
             <Youtube />
@@ -22,12 +21,12 @@ const Footer = () => {
             <Instagram />
           </div>
         </div>
-        <ul className={styles.link}>
+        <ul className={styles.list}>
           <li><a className={styles.item} href="#footerabout">About Us</a></li>
           <li><a className={styles.item} href="#footercontact">Contact</a></li>
           <li><a className={styles.item} href="#footerblog">Blog</a></li>
         </ul>
-        <ul className={styles.link}>
+        <ul className={styles.list}>
           <li><a className={styles.item} href="#footercareers">Careers</a></li>
           <li><a className={styles.item} href="#footersupport">Support</a></li>
           <li><a className={styles.item} href="#footerprivacy">Privacy Policy</a></li>

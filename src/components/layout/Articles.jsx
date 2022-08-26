@@ -7,9 +7,9 @@ import imgConfetti from "../../assets/image-confetti.jpg";
 
 const Articles = () => {
 	return (
-		<section className={styles.articlesContainer}>
-			<h2>Latest Articles</h2>
-			<div className={styles.cardList}>
+		<section className={styles.container}>
+			<h2 className={styles.title}>Latest Articles</h2>
+			<div className={styles.list}>
 				<Card
 					author={"Claire Robinson"}
 					title={"Receive money in any currency with no fees"}

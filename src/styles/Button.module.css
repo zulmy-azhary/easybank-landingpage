@@ -1,6 +1,6 @@
 .button {
   border: none;
-  padding: .8rem 1.5rem;
+  padding: .8rem 2rem;
   border-radius: 1.5rem;
   background-image: linear-gradient(to right, var(--LimeGreen), var(--BrightCyan));
   color: var(--White);

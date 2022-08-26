@@ -1,4 +1,4 @@
-const OffersList = ({icon, title, className, description}) => {
+const OffersItem = ({icon, title, className, description}) => {
   return (
     <div className={className}>
       {icon}
@@ -8,4 +8,4 @@ const OffersList = ({icon, title, className, description}) => {
   )
 }
 
-export default OffersList
+export default OffersItem;

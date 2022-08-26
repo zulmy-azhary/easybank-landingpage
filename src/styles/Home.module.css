@@ -5,16 +5,19 @@
   background-color: var(--VeryLightGray);
 }
 
-.homeContent {
-  flex-basis: 38.5%;
+.homeContainer:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url("../assets/bg-intro-desktop.svg") no-repeat right top;
+  top: -10.8rem;
+  right: -28.5rem;
+  z-index: 1;
 }
 
-.homeBackground {
-  position: absolute;
-  top: -10.8rem;
-  right: -29rem;
-  /* right: -27.5%; */
-  z-index: 1;
+.homeContent {
+  flex-basis: 38.5%;
 }
 
 .imgMockups {
@@ -25,4 +28,24 @@
 }
 
 
-@media (max-width: 375px) {}
+@media (max-width: 375px) {
+  .homeContainer {
+    display: inline-block;
+    padding-top: 21.5rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .homeContainer:after {
+    background: url("../assets/bg-intro-mobile.svg") no-repeat right top;
+    top: 1.5rem;
+    right: 0;
+  }
+
+  .imgMockups {
+    width: 100%;
+    top: -4.2rem;
+    right: 0;
+  }
+}

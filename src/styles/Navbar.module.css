@@ -3,10 +3,10 @@
   position: relative;
   z-index: 9999;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  padding: 1.2rem 0;
+  padding: 1.2rem 9rem;
   background-color: var(--White);
 }
 
@@ -21,4 +21,19 @@
   color: var(--GrayishBlue);
   font-weight: 400;
   font-size: 1rem;
+}
+
+@media (max-width: 375px) {
+  .nav {
+    padding: 1.3rem 1.5rem;
+  }
+
+  .navItem{
+    flex-direction: column;
+    display: none;
+  }
+
+  .nav button {
+    display: none;
+  }
 }

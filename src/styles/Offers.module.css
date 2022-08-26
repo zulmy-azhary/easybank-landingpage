@@ -1,0 +1,27 @@
+.offersContainer {
+  background-color: var(--LightGrayishBlue);
+  position: relative;
+  z-index: 2;
+}
+
+.offersDescription {
+  width: 55%;
+}
+
+.offersList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1.8rem;
+  margin-top: 5rem;
+}
+
+.offersItem {
+  flex-basis: 1;
+}
+
+.offersIcon {
+  border-radius: 50%;
+  background-image: linear-gradient(to right bottom, var(--LimeGreen), var(--BrightCyan));
+  margin-bottom: 2.5rem;
+}

@@ -1,0 +1,28 @@
+.homeContainer {
+  display: flex;
+  align-items: center;
+  height: 42rem;
+  background-color: var(--VeryLightGray);
+}
+
+.homeContent {
+  flex-basis: 38.5%;
+}
+
+.homeBackground {
+  position: absolute;
+  top: -10.8rem;
+  right: -29rem;
+  /* right: -27.5%; */
+  z-index: 1;
+}
+
+.imgMockups {
+  position: absolute;
+  top: -2.3rem;
+  right: -8.2rem;
+  z-index: 3;
+}
+
+
+@media (max-width: 375px) {}

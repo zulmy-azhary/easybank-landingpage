@@ -1,0 +1,9 @@
+.articlesContainer {
+  background-color: var(--VeryLightGray);
+}
+
+.cardList {
+  margin-top: 3rem;
+  display: flex;
+  column-gap: 1.7rem;
+}

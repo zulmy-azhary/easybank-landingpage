@@ -1,0 +1,33 @@
+.cardContainer {
+  flex-basis: 1;
+  border-radius: .5rem;
+  background-color: var(--White);
+}
+
+.cardContent {
+  padding: 1.5rem;
+}
+
+.cardAuthor {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: .7rem;
+}
+
+.cardImage {
+ width: 100%;
+ border-top-left-radius: .5rem;
+ border-top-right-radius: .5rem;
+ height: 12rem;
+}
+
+.cardTitle {
+  color: var(--DarkBlue);
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+
+.cardDesc {
+  margin-top: 1rem;
+  font-size: .85rem;
+}

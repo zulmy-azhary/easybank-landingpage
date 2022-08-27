@@ -46,6 +46,11 @@ p {
 	font-weight: 400;
 }
 
+:is(h4, a):hover {
+	color: var(--LimeGreen);
+	cursor: pointer;
+}
+
 @media (max-width: 375px) {
 	.App {
 		position: static;

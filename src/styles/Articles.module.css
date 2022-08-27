@@ -1,5 +1,7 @@
 .container {
   background-color: var(--VeryLightGray);
+  position: relative;
+  z-index: 2;
 }
 
 .list {

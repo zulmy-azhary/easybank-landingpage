@@ -13,20 +13,18 @@ const Footer = () => {
       <div className={styles.content}>
         <div className={styles.contact}>
           <BrandLogo fillPath="#fff" className={styles.logo} />
-          <div className={styles.socialMedia}>
-            <Facebook />
-            <Youtube />
-            <Twitter />
-            <Pinterest />
-            <Instagram />
-          </div>
+          <ul className={styles.socialMedia}>
+            <li><a href="#facebook"><Facebook className={styles.socialMediaIcon} /></a></li>
+            <li><a href="#youtube"><Youtube className={styles.socialMediaIcon} /></a></li>
+            <li><a href="#twitter"><Twitter className={styles.socialMediaIcon} /></a></li>
+            <li><a href="#pinterest"><Pinterest className={styles.socialMediaIcon} /></a></li>
+            <li><a href="#instagram"><Instagram className={styles.socialMediaIcon} /></a></li>
+          </ul>
         </div>
         <ul className={styles.list}>
           <li><a className={styles.item} href="#footerabout">About Us</a></li>
           <li><a className={styles.item} href="#footercontact">Contact</a></li>
           <li><a className={styles.item} href="#footerblog">Blog</a></li>
-        </ul>
-        <ul className={styles.list}>
           <li><a className={styles.item} href="#footercareers">Careers</a></li>
           <li><a className={styles.item} href="#footersupport">Support</a></li>
           <li><a className={styles.item} href="#footerprivacy">Privacy Policy</a></li>
